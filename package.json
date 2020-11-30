@@ -1,0 +1,16 @@
+{
+  "name": "anz_ddtb_backend",
+  "version": "1.0.0",
+  "description": "mock services",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mountebank": "^2.3.3",
+    "node-fetch": "^2.6.1"
+  }
+}
