@@ -1,5 +1,5 @@
-const mbHelper = require('./mountebank-helper');
-const settings = require('./settings');
+const mbHelper = require('../helper/mountebank-helper');
+const settings = require('../config/settings');
 
 function getUserTransactions() {
     const stubs = [

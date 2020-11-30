@@ -1,5 +1,5 @@
-const mbHelper = require('./mountebank-helper');
-const settings = require('./settings');
+const mbHelper = require('../helper/mountebank-helper');
+const settings = require('../config/settings');
 
 function getUserAccounts() {
     const stubs = [
@@ -24,13 +24,13 @@ function getUserAccounts() {
                                 type: 'SAVINGS',
                                 name: 'personal',
                                 current_balance: 1234.455,
-                                available_funds: 1234.455,
+                                available_funds: 1224.455,
                             },
                             {
                                 id: 76457423,
                                 type: 'LOAN',
                                 name: 'homeloan',
-                                current_balance: 560000.250,
+                                current_balance: 561000.250,
                                 available_funds: 560000.250
                             },
                             {
