@@ -5,6 +5,7 @@
 ### Transactions service: http://localhost:5003/transactions
 
 Steps to run this code:
-
+```
 npm install
 npm start
+```
